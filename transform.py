@@ -52,13 +52,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# with open(InFile, 'rb') as OpFile:
-#     FirstLine = OpFile.readline()
-#     PhoneMatch = re.compile(r'\d*/TYPE=PLMN')
-#     try:
-#         FROM_RAW, TO_RAW = re.findall(PhoneMatch, FirstLine)
-#     except:
-#         sys.exit()
-#     FROM = FROM_RAW[:-10]
-#     TO = TO_RAW[:-10]
